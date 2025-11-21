@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/study.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+    
+}
+
+.container{
+
+    border: 1px solid white;
+    max-width:  600px;
+    margin: 100px auto;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#increment, #decrement, #save, #clear{
+
+    margin: 5px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background: #252525;
+    color:#fff;
+    
+}
+#increment:hover, #decrement:hover, #save:hover, #clear:hover{
+    cursor: pointer;
+}
