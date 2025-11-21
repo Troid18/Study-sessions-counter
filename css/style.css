@@ -37,3 +37,14 @@ body{
 #increment:hover, #decrement:hover, #save:hover, #clear:hover{
     cursor: pointer;
 }
+
+#answer{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#count-session{
+
+    font-weight: 800;
+    font-size: 50px;
+}
