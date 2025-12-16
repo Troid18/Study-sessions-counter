@@ -14,6 +14,7 @@ body{
     border: 1px solid white;
     max-width:  600px;
     margin: 100px auto;
+    border-radius: 10px ;
 
 }
 
@@ -24,7 +25,7 @@ body{
 
 }
 
-#increment, #decrement, #save, #clear{
+#increment, #decrement, #save, #reset{
 
     margin: 5px 10px;
     padding: 10px 20px;
@@ -32,6 +33,7 @@ body{
     border: none;
     background: #252525;
     color:#fff;
+    
     
 }
 #increment:hover, #decrement:hover, #save:hover, #clear:hover{

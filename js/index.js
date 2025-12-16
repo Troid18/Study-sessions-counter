@@ -22,10 +22,10 @@ function save(){
     countEl.textContent = count
 }
 
-function clear(){
+function reset(){
 
-    let info = ""
-    session.textContent += info
+    count = 0
+    countEl.textContent = count
      
 
 }
